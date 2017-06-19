@@ -1,7 +1,9 @@
-## Put comments here that give an overall description of what your
+## Calculates an inverse of the matrix and caches the result. 
+#  So that the next time when the function is called it checks if the output is already available
+#  If "yes" it outputs cached result or calculates the inverse of the matrix 
 ## functions do
 
-## Write a short comment describing this function
+## 
 
 makeCacheMatrix <- function(x = matrix()) {
 
